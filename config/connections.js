@@ -90,5 +90,6 @@ module.exports.connections = {
  mlabMongo: {
 	adapter: 'sails-mongo',
 	url: 'mongodb://admin:admin@test-reports-shard-00-00-b7u6d.mongodb.net:27017,test-reports-shard-00-01-b7u6d.mongodb.net:27017,test-reports-shard-00-02-b7u6d.mongodb.net:27017/test?ssl=true&replicaSet=Test-Reports-shard-0&authSource=admin&retryWrites=true'
+}
 
 };
